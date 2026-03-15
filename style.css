@@ -1,0 +1,48 @@
+body{
+text-align:center;
+font-family:Arial;
+background:#222;
+color:white;
+}
+
+#gameArea{
+width:400px;
+height:600px;
+margin:auto;
+background-image:url("images/road.jpg");
+background-size:cover;
+position:relative;
+overflow:hidden;
+border:5px solid white;
+}
+
+#player{
+width:60px;
+position:absolute;
+bottom:20px;
+left:170px;
+}
+
+.enemy{
+width:60px;
+height:100px;
+background:red;
+position:absolute;
+top:0;
+}
+
+#enemy1{ left:70px; }
+#enemy2{ left:250px; }
+
+#score{
+position:absolute;
+top:10px;
+left:10px;
+font-size:20px;
+}
+
+button{
+margin:10px;
+padding:10px 20px;
+font-size:20px;
+}
